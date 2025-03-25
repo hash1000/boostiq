@@ -8,6 +8,8 @@ import { BsPeopleFill } from "react-icons/bs";
 import { RiZzzFill } from "react-icons/ri";
 import { GrDocumentText } from "react-icons/gr";
 import { FaPlus } from "react-icons/fa6";
+import { CiSettings } from "react-icons/ci";
+import { IoDocument } from "react-icons/io5";
 import Link from "next/link";
 
 export default function Presentation() {
@@ -85,6 +87,10 @@ export default function Presentation() {
                 </Link>
               </div>
 
+              <div className="flex justify-center gap-3 items-center absolute left-5 bottom-5">
+                <CiSettings size={50} />
+                <IoDocument size={50} />
+              </div>
               {/* New Page Section */}
               <div className="w-[150px] md:w-[183px] flex flex-col gap-2.5 absolute right-10 bottom-10">
                 <p className="text-center text-lg md:text-2xl font-medium cursor-pointer hover:underline">
